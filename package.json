@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-aop",
+  "version": "1.0.0",
+  "description": "Node.js AOP features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "start": "npm run-script build && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Markoni85/nodejs-aop.git"
+  },
+  "keywords": [
+    "node",
+    "aop"
+  ],
+  "author": "marko.m",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Markoni85/nodejs-aop/issues"
+  },
+  "homepage": "https://github.com/Markoni85/nodejs-aop#readme",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
+}
